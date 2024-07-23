@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        iframe#tela{
+            width: 95vw;
+            height: 450px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam odit consequatur nostrum, quidem ducimus blanditiis dignissimos minus reiciendis labore id unde perspiciatis nihil deleniti qui officiis consequuntur alias laudantium! Aspernatur.</p>
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat reiciendis officiis praesentium necessitatibus aut, libero harum voluptates omnis? Error cum suscipit animi temporibus voluptatem expedita dignissimos, esse ut facilis consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quo in voluptatum laboriosam eos illo possimus recusandae quas rem consequuntur ullam, accusantium iure voluptas hic distinctio ipsam, alias dolores necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi a sit, veniam nobis enim atque explicabo optio pariatur exercitationem delectus quam dolor modi quisquam non eum laborum sunt cumque dolore.</p>
+
+
+    <!--o SRCDOC serve para colocar um documento html dentro do iframe , podendo conter textos, imgs, etc-->
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima" frameborder="1">
+        <p>Infelizmente, seu navegador não é compatível com isso.</p>
+    </iframe>
+
+
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, quisquam ex? Quos commodi perspiciatis et veniam tempora facilis alias laborum? Asperiores at dignissimos possimus cupiditate magni obcaecati non rem doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nisi quis maxime numquam minima expedita. Repellendus soluta corporis expedita ipsam modi repellat quia inventore pariatur velit recusandae, consequuntur esse. Labore?</p>
+</body>
+</html>
